@@ -1,0 +1,7 @@
+dubbo:
+  application:
+    name: provider-ticket
+  registry:
+    address: zookeeper://129.211.77.216:2181
+  scan:
+    base-packages: com.amao.ticket.service
